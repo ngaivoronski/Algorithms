@@ -20,7 +20,6 @@ def find_max_profit(prices, index=0, profit=float("-inf")):
   else:
     return profit
 
-
 if __name__ == '__main__':
   # This is just some code to accept inputs from the command line
   parser = argparse.ArgumentParser(description='Find max profit from prices.')

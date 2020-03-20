@@ -10,6 +10,7 @@ def secret_to_coding_1():
 def secret_to_coding_2():
   print ("\nBeautiful code is both ELEGANT and EFFICIENT\n  ELEGANT: short, easy to read, easy to understand, easy to maintain, easy to modify\n  EFFICIENT: minimal CPU operations, minimal memory/storage requirements\n")
 # Which code is more beautiful: secretToCoding1() or secretToCoding2()?
+
 import math
 import random
 import time
