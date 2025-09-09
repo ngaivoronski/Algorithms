@@ -3,7 +3,15 @@
 import sys
 
 def rock_paper_scissors(n):
-  pass 
+  if n == 0:
+    return [[]]
+  else:
+    temparr = []
+    for i in rock_paper_scissors(n-1):
+      temparr.append(i + ['rock'])
+      temparr.append(i + ['paper'])
+      temparr.append(i + ['scissors'])
+    return temparr
 
 
 if __name__ == "__main__":
